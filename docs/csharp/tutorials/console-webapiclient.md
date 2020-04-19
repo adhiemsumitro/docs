@@ -222,6 +222,7 @@ You're using a new namespace, so you'll need to add it at the top of the file as
 
 ```csharp
 using System.Text.Json;
+using System.Collections.Generic;
 ```
 
 Notice that you're now using <xref:System.Net.Http.HttpClient.GetStreamAsync(System.String)> instead of <xref:System.Net.Http.HttpClient.GetStringAsync(System.String)>. The serializer
